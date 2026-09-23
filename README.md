@@ -1,5 +1,5 @@
 
-## v2 FFT Callout Update
+## v28 FFT Callout Update
 
 FFT plot arrow callouts now identify the three strongest spectral components strictly below 1 kHz. The underlying FFT/PSD calculations, full displayed spectrum, dominant-component summary, and standard frequency-band integration are unchanged.
 
