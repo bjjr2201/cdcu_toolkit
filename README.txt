@@ -1287,7 +1287,7 @@ the PWM Logic Board PWM test points or sufficiently wide-bandwidth ripple
 measurement.
 
 ======================================================================
-REVISION 26 — DCBUS SPECTRAL ANALYSIS
+REVISION 26 - DCBUS SPECTRAL ANALYSIS
 ======================================================================
 
 The inactive default FFT/PSD analysis of PMM Set Current has been removed from
@@ -1324,60 +1324,7 @@ The analyzer otherwise rejects missing, short, or irregular records rather than
 producing a misleading FFT/PSD result.
 
 
-======================================================================
-REVISION 27 - EXTERNAL OSCILLOSCOPE CSV ANALYSIS
-======================================================================
-
-The toolkit can now analyze one to four hardware-timed oscilloscope channels
-from a CSV export using cdcu_scope_fft.py.  Each selected channel receives the
-same FFT / Welch PSD / cumulative-RMS spectral processing used by the existing
-PMM path plus a time-domain stability summary for the acquired record.
-
-The default target for DCBus work remains a 10 kHz, 100,001-sample record
-(10.000 s span), but the generic oscilloscope utility accepts other genuinely
-hardware-timed records when the CSV timestamps establish the sample interval or
-when --sample-rate is supplied for a scope export with no time column.
-
-IMPORTANT: The stability values describe variation during the acquired scope
-record.  They are not replacements for CAEN's 24-hour or 7-day stability
-specifications.
-
-Per-channel stability metrics include:
-  - mean and median
-  - minimum and maximum
-  - peak-to-peak variation
-  - peak-to-peak stability in ppm and percent
-  - standard deviation
-  - AC RMS about the record mean and ppm
-  - maximum absolute deviation from the mean and ppm
-  - linear drift in engineering units/s and ppm/s
-
-The run also writes:
-  oscilloscope_stability_summary.txt
-  oscilloscope_stability_summary.csv
-
-Example - two-channel DCBus scope CSV with a Time column:
-
-  python cdcu_scope_fft.py --csv dcbus_scope.csv \
-      --expected-samples 100001 \
-      --channel "CH1,DCBus Input Voltage,V,40" \
-      --channel "CH2,DCBus Input Current,A,200"
-
-Example - four scope channels:
-
-  python cdcu_scope_fft.py --csv scope4.csv \
-      --channel "CH1,DCBus Input Voltage,V,40" \
-      --channel "CH2,DCBus Input Current,A,200" \
-      --channel "CH3,Aux Voltage,V" \
-      --channel "CH4,Aux Current,A"
-
-If the CSV contains no time column, state the hardware sample rate explicitly:
-
-  python cdcu_scope_fft.py --csv scope.csv --sample-rate 10000 \
-      --expected-samples 100001 \
-      --channel "CH1,DCBus Input Voltage,V" \
-      --channel "CH2,DCBus Input Current,A"
-
-cdcu_dcbus_fft.py remains the strict two-channel convenience path.  It now also
-produces the same stability summary while continuing to require the PMM-like
-100,001-sample / 10 kHz DCBus record.
+REVISION 27
+External oscilloscope CSV support: 1-4 hardware-timed channels, FFT/PSD and
+record stability. Use cdcu_scope_fft.py. The strict two-channel DCBus analyzer
+also now writes stability summaries.

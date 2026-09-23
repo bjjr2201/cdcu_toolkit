@@ -1,0 +1,396 @@
+{
+  "Cab_1": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BS1; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:BS1",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.2.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ2; DMM_Q2; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ2",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.3.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ1; DMM_Q1; Resistance: 0.0511 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ1",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.4.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BS2; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:BS2",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.5.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ3; DMM_Q3; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ3",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.6.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ4; DMM_Q4; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ4",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    }
+  },
+  "Cab_2": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}AS3; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:AS3",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.2.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}AQ7; DMM_Q3; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:AQ7",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.3.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}AM3; Dipole; Resistance: 0.20 Ohm; Inductance: 138 mH",
+      "magnet_id": "{SECTOR}:AM3",
+      "raw_V": "62",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.4.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}AQ5; DMM_Q1; Resistance: 0.0511 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:AQ5",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.5.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}AQ6; DMM_Q2; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:AQ6",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    }
+  },
+  "Cab_3": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}AM4; Dipole; Resistance: 0.20 Ohm; Inductance: 138 mH",
+      "magnet_id": "{SECTOR}:AM4",
+      "raw_V": "62",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.2.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ8; R&D Q8 #1/; Resistance: 0.096 Ohm; Inductance: 62.5 mH",
+      "magnet_id": "{SECTOR}:BQ8",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.3.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}AQ8; R&D Q8 #1/; Resistance: 0.096 Ohm; Inductance: 62.5 mH",
+      "magnet_id": "{SECTOR}:AQ8",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    }
+  },
+  "Cab_4": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ5; DMM_Q1; Resistance: 0.0511 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ5",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.2.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ6; DMM_Q2; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ6",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.3.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BS3; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:BS3",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.4.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ7; DMM_Q3; Resistance: 0.056 Ohm; Inductance: 41.7 mH",
+      "magnet_id": "{SECTOR}:BQ7",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.5.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BM3; Dipole; Resistance: 0.200 Ohm; Inductance: 138 mH",
+      "magnet_id": "{SECTOR}:BM3",
+      "raw_V": "62",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    }
+  },
+  "Cab_5": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BS1; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:BS1",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.2.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ2; DMM_Q2; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ2",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.3.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ1; DMM_Q1; Resistance: 0.0511 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ1",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.4.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BS2; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:BS2",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.5.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ3; DMM_Q3; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ3",
+      "raw_V": "40",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.6.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}BQ4; DMM_Q4; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:BQ4",
+      "raw_V": "40",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    }
+  },
+  "E-Lab": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: APS_Corrector; DS1001; Resistance: 0.116 Ohm; Inductance: 19.4 mH",
+      "magnet_id": "L1127:",
+      "raw_V": "60",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+      }
+    },
+  "Test_1": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_1; ES2001; Resistance: 0.129 Ohm; Inductance: 22.5 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "42.76",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.2.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_2; DQ111; Resistance: 0.06 Ohm; Inductance: 18.9 mH",
+      "magnet_id": "{SECTOR}:DQ111",
+      "raw_V": "42.76",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.3.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_3; DMM_Q3; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "42.76",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.4.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot4*; R&D_Q8; Resistance: 0.0511 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:slot4",
+      "raw_V": "42.76",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.5.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot5*; ES2040; Resistance: 0.129 Ohm; Inductance: 22.5 mH",
+      "magnet_id": "{SECTOR}:slot5",
+      "raw_V": "42.76",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.6.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_6; DQ508; Resistance: 0.045 Ohm; Inductance: 11.0 mH",
+      "magnet_id": "{SECTOR}:DQ508",
+      "raw_V": "42.76",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.7.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_7; DMM_Q4; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.8.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_8; DMM_Q2; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    }
+  },
+  "Test_2": {
+    "192.168.1.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_1; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.2.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_2; DMM_Q2; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.3.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_3; DMM_Q1; Resistance: 0.0511 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.4.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_4; DMM_S1; Resistance: 0.117 Ohm; Inductance: 1.369 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.5.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_5; DMM_Q3; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.6.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_6; DMM_Q4; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "15",
+      "vout_ref_V": ""
+    },
+    "192.168.7.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_7; DMM_Q4; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    },
+    "192.168.8.2": {
+      "dcbus_ref_V": "",
+      "idc_ref_A": "",
+      "load_desc": "Magnet: {SECTOR}_slot_8; DMM_Q2; Resistance: 0.064 Ohm; Inductance: 16.9 mH",
+      "magnet_id": "{SECTOR}:",
+      "raw_V": "43.36",
+      "v_out_rating": "45",
+      "vout_ref_V": ""
+    }
+  }
+}
